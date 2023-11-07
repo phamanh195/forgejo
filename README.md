@@ -1,0 +1,2 @@
+# forgejo
+Setup forgejo application
