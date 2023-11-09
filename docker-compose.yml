@@ -26,6 +26,7 @@ services:
       - FORGEJO__database__NAME=forgejo
       - FORGEJO__database__USER=forgejo
       - FORGEJO__database__PASSWD=forgejo
+      - FORGEJO__webhook__ALLOWED_HOST_LIST=*
     depends_on:
         - db
 
